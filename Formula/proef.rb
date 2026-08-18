@@ -1,28 +1,28 @@
 class Proef < Formula
   desc "Declarative multi-engine e2e test runner: Gherkin prose over embedded hurl"
   homepage "https://github.com/emrecdr/proef"
-  version "0.13.0"
+  version "0.14.0"
   license any_of: ["MIT", "Apache-2.0"]
 
   on_macos do
     on_arm do
-      url "https://github.com/emrecdr/proef/releases/download/v0.13.0/proef-v0.13.0-aarch64-apple-darwin.tar.gz"
-      sha256 "9cfe86c11b37383b80cab701a82340a4da5004cc401068d3190085448182d77e"
+      url "https://github.com/emrecdr/proef/releases/download/v0.14.0/proef-v0.14.0-aarch64-apple-darwin.tar.gz"
+      sha256 "5aa0c8024c74c3e19bb54050d7cc5a52759fc8471fe3ebc0e6d62239c17ec452"
     end
     on_intel do
-      url "https://github.com/emrecdr/proef/releases/download/v0.13.0/proef-v0.13.0-x86_64-apple-darwin.tar.gz"
-      sha256 "9a39f4a94e7591e0bd39bfdacf8108e079f2e809a8030f79ee8e1bad3070d797"
+      url "https://github.com/emrecdr/proef/releases/download/v0.14.0/proef-v0.14.0-x86_64-apple-darwin.tar.gz"
+      sha256 "cb17282e1a30f196f48734cfffe367ee65209eb91d3b524bc4471a06a2c19a63"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://github.com/emrecdr/proef/releases/download/v0.13.0/proef-v0.13.0-aarch64-unknown-linux-gnu.tar.gz"
-      sha256 "e26df3104ec3effd3e25f5894afa7f2b4aac6171fcb36cd6a72690fc9ad2f975"
+      url "https://github.com/emrecdr/proef/releases/download/v0.14.0/proef-v0.14.0-aarch64-unknown-linux-gnu.tar.gz"
+      sha256 "be953a0874cc4fba04db1e613566fb323a238436a08e639dd7873ed4e595806a"
     end
     on_intel do
-      url "https://github.com/emrecdr/proef/releases/download/v0.13.0/proef-v0.13.0-x86_64-unknown-linux-gnu.tar.gz"
-      sha256 "f37d2569228a937b72f57ed86e86ac57821ffc80e5e800893b2ea631215fe43f"
+      url "https://github.com/emrecdr/proef/releases/download/v0.14.0/proef-v0.14.0-x86_64-unknown-linux-gnu.tar.gz"
+      sha256 "4cbdc4822558af20972408373b54c153fea5d07cd83a5a08d6462a01973aa7d8"
     end
   end
 
